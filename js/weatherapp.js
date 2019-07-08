@@ -1,6 +1,6 @@
 
 
-function displayclothing(){
+function displayClothing(){
 var temperature = document.getElementById("temp").value;
 // setting a temp variable//
 
