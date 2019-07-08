@@ -13,9 +13,9 @@ if (temperature >=16 && temperature <=35){
    //setting temperature range between -1 and -15// 
 } else if (temperature >=-15 && temperature <=-1){ 
     document.getElementById("wear").innerHTML = "its very cold wear your warmest clothing.";
-    //setting temperature range between -16 and below//
-} else if (temperature <=-16){ 
-    document.getElementById("wear").innerHTML = "stay indoors under a warm blanket.";
+    //setting temperature range for 36 and above//
+} else if (temperature >=36){ 
+    document.getElementById("wear").innerHTML = "stay hydrated and make use of all available sun protection.";
 }  else{ 
     alert("not a valid temperature.");
 }
