@@ -4,7 +4,7 @@ let searchButton = document.getElementById("search-btn");
 let searchInput = document.getElementById("search-txt");
 let cityName = document.getElementById("city-name");
 let icon = document.getElementById("icon");
-let temperature = document.getElementById("temp");
+let temperature = document.getElementById("secondtemp");
 let humidity = document.getElementById("humidity-div");
 
 searchButton.addEventListener("click", findWeatherDetails);
