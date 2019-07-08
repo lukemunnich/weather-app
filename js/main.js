@@ -1,5 +1,6 @@
 const appKey = "f24f40b1c24505685fce3b8acd0fcffc";
 
+//    setting up the document variables
 let searchButton = document.getElementById("search-btn");
 let searchInput = document.getElementById("search-txt");
 let cityName = document.getElementById("city-name");
@@ -10,12 +11,14 @@ let humidity = document.getElementById("humidity-div");
 searchButton.addEventListener("click", findWeatherDetails);
 searchInput.addEventListener("keyup", enterPressed);
 
+// setting function for finding weather details
 function enterPressed(event) {
   if (event.key === "Enter") {
     findWeatherDetails();
   }
 }
 
+// setting conditions
 function findWeatherDetails() {
   if (searchInput.value === "") {
   
@@ -25,6 +28,7 @@ function findWeatherDetails() {
   }
  }
 
+//  configuring the output
 function theResponse(response) {
   let jsonObject = JSON.parse(response);
   cityName.innerHTML = jsonObject.name;
