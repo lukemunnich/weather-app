@@ -11,6 +11,7 @@
 
 body{background-color: aquamarine;
      background-image: url("/images/weather.jpg");
+     mask-repeat:none
 }
 
 p{font-size: 80px;
