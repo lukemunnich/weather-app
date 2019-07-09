@@ -12,7 +12,8 @@
 
 body{background-color: aquamarine;
      background-image: url("/images/weather.jpg");
-     mask-repeat:none
+     background-size: cover;
+     background-repeat: no-repeat;
 }
 
 p{font-size: 80px;
